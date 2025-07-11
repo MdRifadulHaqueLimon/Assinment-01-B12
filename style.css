@@ -247,7 +247,7 @@
     margin-left: 25px;
 }
 
-
+/* let's get in touch */
 .main-from {
     display: flex;
     justify-content: center;
@@ -255,7 +255,94 @@
 }
 
 .from-h {
-    font-size: 100px;
+    font-size: 80px;
     font-style: bold;
     font-weight: 900;
+    margin-top: 340px;
+
+}
+
+form {
+    padding-top: 150px;
+}
+
+.from p {
+    font-size: 15px;
+    color: black;
+}
+
+form>input {
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form>textarea {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background: rgb(78, 71, 255);
+    color: white;
+    padding: 10px;
+    width: 425px;
+    border: 2px solid rgb(78, 71, 255);
+    border-radius: 5px;
+    margin-bottom: 70px;
+
+}
+
+.btn:hover {
+    background-color: rgba(133, 133, 133, 0.555);
+    border: 2px solid rgba(133, 133, 133, 0.555);
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.678);
+    transition: all 0.30s ease-in-out;
+    color: #000;
+}
+
+.footers {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footers li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.footers li>a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    background-color: rgba(245, 245, 245, 0.644);
+    padding-bottom: 100px;
+}
+
+.logo {
+    font-size: 100px;
+    color: rgb(78, 71, 255);
+    font-weight: 900;
+    font-style: bold;
+    font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ps {
+    color: rgb(137, 135, 161);
+    margin-top: -50px;
 }
