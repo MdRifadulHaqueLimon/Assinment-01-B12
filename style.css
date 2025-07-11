@@ -1,5 +1,8 @@
 * {
     font-family: Raleway;
+    /* margin: 0px;
+    padding: 0px; */
+
 }
 
 
@@ -8,7 +11,7 @@
     background-image: url(Assets/Hero-bg.png);
     padding: 30px 100px;
     /* position: absolute; */
-    width: 1440px;
+    width: 1370px;
     height: 698px;
 }
 
@@ -17,7 +20,7 @@
     justify-content: space-between;
     align-items: center;
     /* padding: 20px; */
-    margin: 0 100px;
+    /* margin: 0 100px; */
 }
 
 .navbar h1 {
@@ -328,7 +331,7 @@ form>textarea {
 
 footer {
     text-align: center;
-    margin-bottom: 50px;
+
     padding-top: 50px;
     background-color: rgba(245, 245, 245, 0.644);
     padding-bottom: 100px;
