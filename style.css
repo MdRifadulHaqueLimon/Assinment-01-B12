@@ -1,0 +1,194 @@
+* {
+    font-family: Raleway;
+}
+
+
+
+.hero {
+    background-image: url(Assets/Hero-bg.png);
+    padding: 30px 100px;
+    /* position: absolute; */
+    width: 1440px;
+    height: 698px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    margin: 0 100px;
+}
+
+.navbar h1 {
+    font-size: 34px;
+    color: rgb(78, 71, 255);
+    font-weight: 1000;
+}
+
+.navbar button {
+    font-size: 16px;
+    font-weight: 700px;
+    padding: 12px 36px 12px 36px;
+    background-color: rgb(78, 71, 255);
+    border: 2px solid rgb(78, 71, 255);
+    border-radius: 10px;
+    color: white;
+}
+
+.navbar button:hover {
+    font-size: 16px;
+    font-weight: 900px;
+    padding: 12px 36px 12px 36px;
+    background-color: rgba(133, 133, 133, 0.555);
+    border: 2px solid rgba(133, 133, 133, 0.555);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.678);
+    transition: all 0.30s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    position: static;
+    margin-top: 158px;
+}
+
+.container h1 {
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+}
+
+.container button {
+    font-size: 16px;
+    border: 2px solid rgb(78, 71, 255);
+    padding: 12px 36px 12px 36px;
+    background-color: rgb(78, 71, 255);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.container button:hover {
+    font-size: 16px;
+    border: 2px solid rgba(133, 133, 133, 0.555);
+    padding: 12px 36px 12px 36px;
+    background-color: rgba(133, 133, 133, 0.555);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.678);
+    transition: all 0.30s ease-in-out;
+
+}
+
+/* Action Section */
+.action {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 100px 150px;
+    align-items: center;
+
+}
+
+.container2 h2 {
+    font-size: 42px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+}
+
+.container2 p {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.651)
+}
+
+.container2 button {
+    font-size: 16px;
+    border: 2px solid rgb(78, 71, 255);
+    padding: 12px 36px 12px 36px;
+    background-color: rgb(78, 71, 255);
+    color: white;
+    border-radius: 10px;
+
+}
+
+.container2 button:hover {
+    font-size: 16px;
+    border: 2px solid rgba(133, 133, 133, 0.555);
+    padding: 12px 36px 12px 36px;
+    background-color: rgba(133, 133, 133, 0.555);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.678);
+    transition: all 0.30s ease-in-out;
+
+}
+
+.action-img img {
+    border-radius: 48px;
+}
+
+/* Joined Thousands of Productive Users */
+.joined {
+    text-align: center;
+}
+
+.joined h2 {
+    font-size: 38px;
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+}
+
+.joined-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+
+}
+
+.joined-list li {
+    font-size: 90px;
+    color: rgb(78, 71, 255);
+    list-style-type: none;
+    margin: 10px 0;
+    font-family: Inter, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.joined {
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.1);
+    padding: 50px 0;
+    margin: 100px 150px;
+}
+
+.joined-list2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    text-decoration: none;
+}
+
+.joined-list2>p {
+    margin-top: 0px;
+    font-size: 20px;
+    font-style: bold;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+
+}
+
+/* What our users say */
+.users-reviews {
+    text-align: center;
+    margin: 100px 150px;
+}
+
+.users-reviews h1 {
+    text-align: center;
+    margin: 100px 150px;
+    font-size: 40px;
+    font-style: bold;
+}
