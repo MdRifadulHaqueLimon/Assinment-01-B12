@@ -192,3 +192,70 @@
     font-size: 40px;
     font-style: bold;
 }
+
+/* Loved by Designers */
+.review-cards {
+    background-color: rgba(245, 245, 245, 0.644);
+    border-radius: 15px;
+    width: 366.67px;
+    height: 243px;
+    gap: 30px;
+}
+
+.icon-star {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.icon-star img {
+    justify-content: left;
+    display: flex;
+    margin-top: 20px;
+}
+
+.review-cards h1 {
+    font-size: 18px;
+
+
+}
+
+.div {
+    display: flex;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.div img {
+    height: 40px;
+    width: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.Date {
+    margin-top: -20px;
+}
+
+.r3-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.review {
+    margin-left: 25px;
+}
+
+
+.main-from {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.from-h {
+    font-size: 100px;
+    font-style: bold;
+    font-weight: 900;
+}
